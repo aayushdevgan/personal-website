@@ -1,0 +1,33 @@
+.headline {
+  font-family: Rubik, serif;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 4vw;
+  text-align: center;
+  font-size: 2vw;
+}
+.intro-button-container-connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 3vw;
+}
+.intro-button-contact {
+  background-color: #008AD8;
+  font-family: Rubik, serif;
+  align-self: center;
+  font-style: normal;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 1.8vw;
+  width: 15vw;
+  height: 4vw;
+  outline: none !important;
+  border: none;
+  color: white;
+  border-radius: 0.8vw;
+  text-align: center;
+  cursor: pointer;
+}
