@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
-import "./ContactForm.scss";
+import "./Style.scss";
 
 export default function ContactForm({ setFormVisibility }) {
   const [name, setName] = useState("");

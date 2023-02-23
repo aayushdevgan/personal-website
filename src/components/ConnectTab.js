@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ContactForm from "./ContactForm";
-import "./ConnectTab.scss";
+import "./Style.scss";
 
 export default function ConnectTab() {
   const [showContactForm, setShowContactForm] = useState(false);
@@ -13,7 +13,7 @@ export default function ConnectTab() {
           <button className="intro-button-contact" onClick={(e) => setShowContactForm(true)}>
               Say Hi
           </button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          <a href="https://topmate.io/aayush_devgan" target="_blank">
+          <a href="https://topmate.io/aayush_devgan" target="blank">
           <button className="intro-button-contact">
               Setup a Meet
           </button>

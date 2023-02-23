@@ -1,5 +1,5 @@
 import React from "react";
-import "./FeaturedArtcle.scss";
+import "./Style.scss";
 
 export default function FeaturedArticle({title, imgSrc, publish_date, contentLink
 }) {

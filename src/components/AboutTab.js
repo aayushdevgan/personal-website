@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import "./AboutTab.scss";
+import React from "react";
+import "./Style.scss";
 
 export default function AboutTab() {
     return (
         <div className="outer-container">
             <p className="headline-intro">I'm an engineer with experience in
-                <span style={{ color: "#008AD8" }}>  Data Engineering</span>,
-                <span style={{ color: "#008AD8" }}> Devops</span> and <span style={{ color: "#008AD8" }}>Feature Engineering</span>. I have a knack for breaking bigger
-                problems into smaller ones and creating innovative solutions for them.<br /> <br /> <br /> <br />
+                <span style={{ color: "#008AD8" }}>  Data, ML Engineering and</span>
+                <span style={{ color: "#008AD8" }}> Devops</span> areas. I have a knack for breaking bigger
+                problems into smaller ones and creating innovative solutions for them to create business value.<br /> <br /> <br /> <br />
                 Work Experiences
             </p>
             <div className="intro-button-container">

@@ -1,12 +1,12 @@
 import React from "react";
-import { BLOG_TAB, PROFILES_TAB, CONNECT_TAB, ABOUT_TAB } from "../utils/constants";
-import "./BrowserNav.scss";
+import { RESUME_TAB, PROFILES_TAB, CONNECT_TAB, ABOUT_TAB } from "../utils/constants";
+import "./Style.scss";
 
 export default function BrowserNav({
   activeTab,
   onActiveTabChange,
   aboutClassName,
-  blogClassName,
+  resumeClassName,
   connectClassName,
   profilesClassName
 }) {
@@ -30,7 +30,7 @@ export default function BrowserNav({
                 className="tab-icon"
                 src={require("../assets/tab-icon-draft.png")}/>
             <p className="tab-text">About Me</p>
-            {activeTab !== ABOUT_TAB  && activeTab !== BLOG_TAB && (
+            {activeTab !== ABOUT_TAB  && activeTab !== RESUME_TAB && (
                 <img
                     className="tab-divider"
                     src={require("../assets/divider.png")}
@@ -38,14 +38,14 @@ export default function BrowserNav({
             )}
           </button>
             <button
-                id={BLOG_TAB}
-                className={blogClassName}
+                id={RESUME_TAB}
+                className={resumeClassName}
                 onClick={(e) => onTabClick(e)}>
                 <img
                     className="tab-icon"
                     src={require("../assets/tab-icon-draft.png")}/>
-                <p className="tab-text">Blogs</p>
-                {activeTab !== BLOG_TAB  && activeTab !== PROFILES_TAB && (
+                <p className="tab-text">Resume</p>
+                {activeTab !== RESUME_TAB  && activeTab !== PROFILES_TAB && (
                     <img
                         className="tab-divider"
                         src={require("../assets/divider.png")}
